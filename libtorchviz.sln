@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorchviz", "libtorchviz\libtorchviz.vcxproj", "{4CE9E7A7-E909-4712-A767-F3E61F686192}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtorchviz_test", "libtorchviz_test\libtorchviz_test.vcxproj", "{2313EA2B-9F2E-4997-8766-E5027B3768F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CE9E7A7-E909-4712-A767-F3E61F686192} = {4CE9E7A7-E909-4712-A767-F3E61F686192}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE9E7A7-E909-4712-A767-F3E61F686192}.Debug|x64.ActiveCfg = Debug|x64
+		{4CE9E7A7-E909-4712-A767-F3E61F686192}.Debug|x64.Build.0 = Debug|x64
+		{4CE9E7A7-E909-4712-A767-F3E61F686192}.Release|x64.ActiveCfg = Release|x64
+		{4CE9E7A7-E909-4712-A767-F3E61F686192}.Release|x64.Build.0 = Release|x64
+		{2313EA2B-9F2E-4997-8766-E5027B3768F2}.Debug|x64.ActiveCfg = Debug|x64
+		{2313EA2B-9F2E-4997-8766-E5027B3768F2}.Debug|x64.Build.0 = Debug|x64
+		{2313EA2B-9F2E-4997-8766-E5027B3768F2}.Release|x64.ActiveCfg = Release|x64
+		{2313EA2B-9F2E-4997-8766-E5027B3768F2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D523A324-BB42-46A1-8CA0-62FE2D0ED57E}
+	EndGlobalSection
+EndGlobal
